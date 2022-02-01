@@ -1,0 +1,11 @@
+.generalQuestions {
+  width: 100%;
+  height: auto;
+}
+
+.generalQuestions h2 {
+  padding: 2rem 0;
+  font-style: italic;
+  text-align: center;
+  color: #ce9d33;
+}
