@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from "react";
 import { useEffect } from "react";
 import { useRef } from "react";
-import { QuestionInterface } from "../Interfaces/QuestionInterface";
+import { QuestionInterface } from "../../Interfaces/QuestionInterface";
 import style from "./Question.module.css";
 
 const Question = (props: QuestionInterface) => {

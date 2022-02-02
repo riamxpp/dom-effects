@@ -1,0 +1,9 @@
+.imageContent {
+  width: 22rem;
+  height: auto;
+}
+
+.imageContent img {
+  width: 100%;
+  border-radius: 0.4rem;
+}

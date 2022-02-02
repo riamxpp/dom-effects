@@ -1,0 +1,9 @@
+.textContent {
+  padding: 1rem 0.5rem;
+  color: #333;
+}
+
+.textContent p {
+  line-height: 0.6cm;
+  font-size: 0.9rem;
+}

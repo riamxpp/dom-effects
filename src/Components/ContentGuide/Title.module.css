@@ -1,0 +1,16 @@
+.contentTitle {
+  width: 40rem;
+  height: auto;
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: #075285;
+}
+
+.contentTitle h2 {
+  margin: 3rem 0 0 0;
+}
+
+.contentTitle p {
+  font-size: 1rem;
+}
