@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from "react";
 import { useEffect } from "react";
 import { useRef } from "react";
-import { QuestionInterface } from "../../Interfaces/QuestionInterface";
+import { QuestionInterface } from "../../Interfaces/GeneralQuestionsInterface/QuestionInterface";
 import style from "./Question.module.css";
 
 const Question = (props: QuestionInterface) => {
@@ -38,7 +38,7 @@ const Question = (props: QuestionInterface) => {
       </div>
       <div
         className={`${style.response} ${style.animeBottom} ${
-          activeResponse ? style.active : null
+          activeResponse ? style.active : ""
         }`}
       >
         <span>{props.response}</span>

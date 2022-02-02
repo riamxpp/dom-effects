@@ -3,8 +3,12 @@
 }
 
 .botoes button {
-  padding: 0.5rem 3rem;
+  padding: 0.5rem 2.9rem;
   cursor: pointer;
   border-radius: 0.1rem;
   border: none;
+}
+
+.botoes button.active {
+  border: 1px solid #0475d1;
 }

@@ -1,5 +1,5 @@
 import React from "react";
-import { TextContentInterface } from "../../Interfaces/TextContentInterface";
+import { TextContentInterface } from "../../Interfaces/CotentGuideInterfaces/TextContentInterface";
 import style from "./TextContent.module.css";
 
 const TextContent = (props: TextContentInterface) => {

@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 import ContentGuide from "./Components/ContentGuide/ContentGuide";
-import GeneralQuestions from "./Components/GereralQuestions/GeneralQuestions";
+import GeneralQuestions from "./Components/GeneralQuestions/GeneralQuestions";
 
 function App() {
   return (
