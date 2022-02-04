@@ -10,7 +10,7 @@ const GeneralQuestions = () => {
   }
 
   return (
-    <div className={style.generalQuestions}>
+    <section className={style.generalQuestions}>
       <h2>General questions </h2>
       <Question
         target={target}
@@ -30,7 +30,7 @@ const GeneralQuestions = () => {
         question="Do you use organic ingredients ?"
         response="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt rem dolores error quibusdam. Sed quam reiciendis voluptates maxime libero natus adipisci omnis quas aspernatur nisi."
       />
-    </div>
+    </section>
   );
 };
 

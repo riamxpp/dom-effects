@@ -1,0 +1,27 @@
+.slideContainer {
+  width: 90%;
+  height: auto;
+  margin: 1rem auto 3rem auto;
+}
+
+.title {
+  margin: 3rem 0 2rem 0;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.title span {
+  color: #ff7b00;
+}
+
+.slideShow {
+  width: 90%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.slideContent {
+  position: relative;
+  width: 90%;
+  margin: 0 auto;
+}

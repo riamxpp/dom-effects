@@ -1,9 +1,9 @@
 import React from "react";
 
 import style from "./ImageContent.module.css";
-import porDoSol from "../../Assents/Img/por-do-sol.jpg";
-import lago from "../../Assents/Img/lago.jpg";
-import estradaComNevoa from "../../Assents/Img/estrada-com-nevoa.jpg";
+import porDoSol from "../../Assents/Img/ImgContentGuide/por-do-sol.jpg";
+import lago from "../../Assents/Img/ImgContentGuide/lago.jpg";
+import estradaComNevoa from "../../Assents/Img/ImgContentGuide/estrada-com-nevoa.jpg";
 import { ImageContentInterface } from "../../Interfaces/CotentGuideInterfaces/ImageContentInterface";
 
 const ImageContent = (props: ImageContentInterface) => {
