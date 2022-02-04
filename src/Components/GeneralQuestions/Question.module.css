@@ -56,3 +56,20 @@
     transform: translateX(0, 0, 0);
   }
 }
+
+@media (max-width: 650px) {
+  .contentQuestion {
+    width: 90%;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+  }
+  .question {
+    width: 100%;
+    padding: 1rem 0.5rem;
+  }
+  .response {
+    width: 100%;
+    padding: 1rem 0.5rem;
+  }
+}

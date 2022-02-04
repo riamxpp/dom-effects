@@ -29,7 +29,7 @@ const Question = (props: QuestionInterface) => {
   }, [props.target]);
 
   return (
-    <section className={style.contentQuestion}>
+    <article className={style.contentQuestion}>
       <div ref={divRef} onClick={props.onClick} className={style.question}>
         <span ref={spanRef}>{props.question}</span>
         <button ref={buttonRef} className={style.seeResponseButton}>
@@ -43,7 +43,7 @@ const Question = (props: QuestionInterface) => {
       >
         <span>{props.response}</span>
       </div>
-    </section>
+    </article>
   );
 };
 

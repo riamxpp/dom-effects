@@ -2,8 +2,13 @@
   width: 25rem;
 }
 
+.botoes {
+  display: flex;
+  justify-content: center;
+}
+
 .botoes button {
-  padding: 0.5rem 2.9rem;
+  padding: 0.5rem 2.4rem;
   cursor: pointer;
   border-radius: 0.1rem;
   border: none;
