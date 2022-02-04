@@ -44,15 +44,7 @@ const Slide = () => {
             setActualSlide={setActualSlide}
           />
         </div>
-        <PrevNext
-          prevSlide={prevSlide}
-          nextSlide={nextSlide}
-          // fixedSize={fixedSize}
-          // setWidthSlide={setWidthSlide}
-          // widthSlide={widthSlide}
-          // actualSlide={actualSlide}
-          // setActualSlide={setActualSlide}
-        />
+        <PrevNext prevSlide={prevSlide} nextSlide={nextSlide} />
       </div>
       <Navigation actualSlide={actualSlide} />
     </section>

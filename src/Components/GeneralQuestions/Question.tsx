@@ -13,20 +13,10 @@ const Question = (props: QuestionInterface) => {
   const buttonRef = useRef<HTMLButtonElement>(null);
 
   useEffect(() => {
-    switch (props.target) {
-      case divRef.current:
-        setActiveResponse((prev) => !prev);
-        break;
-      case spanRef.current:
-        setActiveResponse((prev) => !prev);
-        break;
-      case buttonRef.current:
-        setActiveResponse((prev) => !prev);
-        break;
-      default:
-        setActiveResponse(false);
-    }
-  }, [props.target]);
+    if (props.target === divRef.current) setActiveResponse((prev) => !prev);
+    if (props.target === spanRef.current) setActiveResponse((prev) => !prev);
+    if (props.target === buttonRef.current) setActiveResponse((prev) => !prev);
+  }, [props]);
 
   return (
     <article className={style.contentQuestion}>
