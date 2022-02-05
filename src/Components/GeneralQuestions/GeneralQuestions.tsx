@@ -3,11 +3,10 @@ import Question from "./Question";
 import style from "./GeneralQuestions.module.css";
 
 const GeneralQuestions = () => {
-  const [target, setTarget] = useState<EventTarget | undefined>();
+  const [target, setTarget] = useState<EventTarget>();
   const [click, setClick] = useState(1);
 
   function handleClick(event: React.MouseEvent<HTMLButtonElement>) {
-    setTarget(undefined);
     setTarget(event.target);
     setClick((click) => (click += 1));
   }

@@ -9,4 +9,5 @@ export interface SlideContentInterface {
   setFixedSize: React.Dispatch<React.SetStateAction<number>>;
   prevSlide: () => void;
   nextSlide: () => void;
+  wrapperRef: React.RefObject<HTMLDivElement>;
 }

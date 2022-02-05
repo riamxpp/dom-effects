@@ -13,7 +13,6 @@ const SlideContent = (props: SlideContentInterface) => {
   const margin = 32 * 2;
 
   const widthRef = useRef<HTMLElement>(null);
-  const wrapperRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     if (widthRef.current?.offsetWidth) {
@@ -35,7 +34,7 @@ const SlideContent = (props: SlideContentInterface) => {
 
   return (
     <div
-      ref={wrapperRef}
+      ref={props.wrapperRef}
       className={style.wrapper}
       style={{
         transform: `translateX(-${

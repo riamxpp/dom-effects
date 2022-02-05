@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import Navigation from "./Navigation";
 import PrevNext from "./PrevNext";
 import style from "./Slide.module.css";
@@ -8,6 +8,8 @@ const Slide = () => {
   const [actualSlide, setActualSlide] = useState<number>(0);
   const [widthSlide, setWidthSlide] = useState<number>(0);
   const [fixedSize, setFixedSize] = useState(0);
+
+  const wrapperRef = useRef<HTMLDivElement>(null);
 
   function prevSlide() {
     if (actualSlide === 0) {
@@ -26,6 +28,7 @@ const Slide = () => {
       setWidthSlide((next) => (next += fixedSize));
     }
   }
+
   return (
     <section className={style.slideContainer}>
       <h1 className={style.title}>
@@ -34,6 +37,7 @@ const Slide = () => {
       <div className={style.slideContent}>
         <div className={style.slideShow}>
           <SlideContent
+            wrapperRef={wrapperRef}
             prevSlide={prevSlide}
             nextSlide={nextSlide}
             setWidthSlide={setWidthSlide}
