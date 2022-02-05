@@ -3,10 +3,11 @@
 <h3> Efeitos criados </h3>
 
 <h4> General Questions </h4>
-https://github.com/riamxpp/dom-effects/issues/1#issue-1124926137
+![General questions](https://user-images.githubusercontent.com/83230961/152643081-bd6c4459-7a95-4044-aef1-e760c1729eca.png)
+
 
 <h4> Content Guide </h4>
-https://github.com/riamxpp/dom-effects/issues/2#issue-1124926843
+![Content guide](https://user-images.githubusercontent.com/83230961/152643476-a6a42f27-d75d-4fb0-a0ac-4d4b08900e45.png)
 
 <h4> Slide </h4>
-https://github.com/riamxpp/dom-effects/issues/3#issue-1124926918
+![Slide](https://user-images.githubusercontent.com/83230961/152643491-38ecdd34-0fc2-4fe7-9f0a-0145f1c72d1c.png)
