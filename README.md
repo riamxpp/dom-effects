@@ -1,46 +1,14 @@
-# Getting Started with Create React App
+[![JavaScript](https://img.shields.io/badge/--F7DF1E?logo=javascript&logoColor=000)](https://www.javascript.com/) [![TypeScript](https://img.shields.io/badge/--3178C6?logo=typescript&logoColor=ffffff)](https://www.typescriptlang.org/)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h3> Efeitos criados </h3>
 
-## Available Scripts
+<h4> General Questions </h4>
+<img src="https://user-images.githubusercontent.com/83230961/152643081-bd6c4459-7a95-4044-aef1-e760c1729eca.png" alt="General questions"/>
 
-In the project directory, you can run:
 
-### `npm start`
+<h4> Content Guide </h4>
+<img src="https://user-images.githubusercontent.com/83230961/152643476-a6a42f27-d75d-4fb0-a0ac-4d4b08900e45.png" alt="Content Guide"/>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+<h4> Slide </h4>
+<img src="https://user-images.githubusercontent.com/83230961/152643491-38ecdd34-0fc2-4fe7-9f0a-0145f1c72d1c.png" alt="Slide"/>
