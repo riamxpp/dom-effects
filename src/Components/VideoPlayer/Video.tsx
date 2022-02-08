@@ -4,8 +4,8 @@ import style from "./Video.module.css";
 import videoGalaxia from "../../Assents/videos/VideoPlayer/Galaxy-Motion.mp4";
 
 const Video = () => {
-  const [activeBackgroundPlay, setActiveBackgroundPlay] = useState(false);
-  const [activeBackgroundStop, setActiveBackgroundStop] = useState(false);
+  const [activeBackgroundPlay, setActiveBackgroundPlay] = useState(true);
+  const [activeBackgroundStop, setActiveBackgroundStop] = useState(true);
   const videoRef = useRef<HTMLVideoElement>(null);
 
   function startVideo(): void {
@@ -22,17 +22,18 @@ const Video = () => {
 
   return (
     <section className={style.containerVideo}>
+      <h1>Video Player</h1>
       <aside className={style.video}>
         <video ref={videoRef} src={videoGalaxia} typeof="video/mp4"></video>
         <div className={style.buttonVideo}>
           <button
-            className={activeBackgroundPlay ? style.active : ""}
+            className={activeBackgroundPlay ? "" : style.active}
             onClick={startVideo}
           >
             Play
           </button>
           <button
-            className={activeBackgroundStop ? style.active : ""}
+            className={activeBackgroundStop ? "" : style.active}
             onClick={pauseVideo}
           >
             Pause

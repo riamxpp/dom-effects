@@ -1,9 +1,10 @@
 import React from "react";
 import "./App.css";
-import ContentGuide from "./Components/ContentGuide/ContentGuide";
 import GeneralQuestions from "./Components/GeneralQuestions/GeneralQuestions";
+import ContentGuide from "./Components/ContentGuide/ContentGuide";
 import Slide from "./Components/ReviewSlide/Slide";
 import Video from "./Components/VideoPlayer/Video";
+import MobileButton from "./Components/MobileButton/MobileButton";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <ContentGuide />
       <Slide />
       <Video />
+      <MobileButton />
     </div>
   );
 }

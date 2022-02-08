@@ -1,0 +1,110 @@
+.containerMobileButton {
+  width: 90%;
+  margin: 1rem auto;
+}
+
+.mobileButton {
+  display: none;
+}
+
+.mobileButton::before {
+  content: "";
+  display: inline-block;
+  width: 90%;
+  height: 2px;
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow: 0 6px #fff, 0 -6px #fff;
+}
+
+.containerMobileButton h1 {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav ul {
+  display: flex;
+  list-style: none;
+}
+
+.nav ul li {
+  display: flex;
+  align-items: center;
+}
+
+.header a {
+  text-decoration: none;
+  color: #333;
+  padding: 0.5rem 0.5rem;
+}
+
+@media (max-width: 800px) {
+  .header {
+    align-items: flex-start;
+    flex-direction: row-reverse;
+  }
+
+  .mobileButton {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 4px;
+    position: absolute;
+    border: none;
+    background: #333;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .nav ul {
+    flex-direction: column;
+    padding: 0 0.5rem 0.5rem 0.5rem;
+  }
+
+  .nav ul.activeButton {
+    animation: 0.3s animaLeft ease forwards;
+    box-shadow: 1px 2px 5px 1px rgba(0, 0, 0, 0.7);
+  }
+
+  .nav ul.activeButton .mobileButton {
+    margin-top: 0.5rem;
+  }
+
+  .home {
+    margin-top: 2.5rem;
+  }
+
+  .nav ul li {
+    display: none;
+    padding: 0.5rem 0;
+  }
+
+  .nav ul li a {
+    padding: 0.2rem 0;
+  }
+
+  .nav ul li.activeButton {
+    display: block;
+  }
+
+  .nav ul li a {
+    padding: 0.5rem 0.5rem 0.5rem 0;
+  }
+
+  @keyframes animaLeft {
+    from {
+      opacity: 0;
+      transform: translateX(-30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+}
